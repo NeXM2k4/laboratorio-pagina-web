@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Parámetros Iniciales
+        </title>
+    </head>
+
+    <body>
+
+        <h1>Parámetros Iniciales</h1>
+
+        <h2>Descripción</h2>
+
+        <h3>Directorios</h3>
+
+        <p><code>Dir_Sav_Mai_Pth</code> : Directorio principal. String, no incluye unidades.</p>
+        <p><code>Dir_Sav_Scn_Pth</code> : Directorio para guardar los scans. String, no incluye unidades.</p>
+        <p><code>Dir_Sav_Tht_Pth</code> : Directorio para guardar los ángulos medidos. String, no incluye unidades.</p>
+        <p><code>Dir_Sav_XYZ_Pth</code> : Directorio para guardar los valores de posición. String, no incluye unidades.</p>
+        <p><code>Dir_Sav_Cam_Pth</code>: Directorio para guardar las capturas de la cámara. String, no incluye unidades.</p>
+        
+        <h3>Configuraciones de tiempo</h3>
+        
+        <p><code>Cap_Tim_Sta</code> : Hora de inicio de captura. Array de enteros [3], unidades en [horas, minutos, segundos].</p>
+        <p><code>Cap_Tim_Fin</code> : Hora de fin de captura. Array de enteros [3], unidades en [horas, minutos, segundos].</p>
+        <p><code>Cap_Tim_Sta_Wai_His</code> : Tiempo de espera para el historial de inicio de captura. Entero, unidades en horas.</p>
+        <p><code>Cap_Tim_Sta_Wai_Scr</code> : Tiempo de espera para la pantalla de inicio de captura. Entero, unidades en segundos.</p>
+        
+        <h3>Configuraciones de ángulos de medición</h3>
+        
+        <p><code>R_Ang_Num</code> : Número de ángulos de reflectancia. Entero, no incluye unidades.</p>
+        <p><code>R_Ext_Ang_Num</code> : Número extendido de ángulos de reflectancia. Entero, no incluye unidades.</p>
+        <p><code>R_Ang_Rng</code> : Rango de ángulos azimutales. Array de flotantes, unidades en grados.</p>
+        
+        <h3>Configuraciones XY de medición</h3>
+        
+        <p><code>X_Range</code> : Rango en X. Flotante, unidades en mm.</p>
+        <p><code>Y_Range</code> : Rango en Y. Flotante, unidades en mm.</p>
+        <p><code>X_Pnts</code> : Puntos en X. Entero, no incluye unidades.</p>
+        <p><code>Y_Pnts</code> : Puntos en Y. Entero, no incluye unidades.</p>
+        
+        <h3>Configuraciones de almacenamiento de datos</h3>
+        
+        <p><code>Dat_Fld_Nam</code> : Nombre del directorio para almacenar las mediciones. String, no incluye unidades.</p>
+        <p><code>Dat_Cnt_Nam</code> : Nombre de control de las mediciones. String, no incluye unidades.</p>
+        <p><code>Dat_His_Nam</code> : Nombre del historial de mediciones. String, no incluye unidades.</p>
+        <p><code>Dat_Sto_HD5</code> : Almacenamiento de datos en formato HD5. Booleano, no incluye unidades.</p>
+        <p><code>Dat_Sto_Txt</code> : Almacenamiento de datos en formato texto. Booleano, no incluye unidades.</p>
+        <p><code>Dat_Cnt_CHe</code> : Encabezados de columnas de control de datos. Array de strings, no incluye unidades.</p>
+        
+        <h3>Configuraciones del servo-motor</h3>
+        
+        <p><code>Srv_Cmd_Prt</code> : Puerto de comando del servo. String, no incluye unidades.</p>
+        <p><code>Srv_Rpb_3b_ofp</code> : Raspberry Pi 3b+ encendido/apagado. Entero, no incluye unidades.</p>
+        <p><code>Srv_Rpb_Pico_Ser</code> : Serial del Raspberry Pi Pico. String, no incluye unidades.</p>
+        <p><code>Srv_Pico_Frq</code> : Frecuencia del Raspberry Pi Pico. String, unidades en Hz.</p>
+        <p><code>Srv_Sea_Ran</code> : Rango de búsqueda del servo. Entero, no incluye unidades.</p>
+        <p><code>Srv_Wai_Tim</code> : Tiempo de espera del servo. Flotante, unidades en segundos.</p>
+        
+        <h3>Configuraciones del carril</h3>
+        
+        <p><code>Rai_X_DpR</code> : Distancia por revolución en X del carril. Flotante, unidades en um/rev.</p>
+        <p><code>Rai_Y_DpR</code> : Distancia por revolución en Y del carril. Flotante, unidades en um/rev.</p>
+        
+        <h3>Configuraciones de sensores</h3>
+        
+        <p><code>Vol_Pin</code> : Pin de voltaje. Entero, no incluye unidades.</p>
+        <p><code>Pht_Pin</code> : Pin del fototransistor. Entero, no incluye unidades.</p>
+        <p><code>Lsr_Pin</code> : Pin del láser. Entero, no incluye unidades.</p>
+        <p><code>Lsr_StS</code> : Estabilidad del láser. Entero, unidades en ms.</p>
+        
+        <h3>Ajustes de medición</h3>
+        
+        <p><code>Lsr_Wav</code> : Longitud de onda del láser. Flotante, unidades en nm.</p>
+        
+        <h3>Configuraciones de gráficos</h3>
+        
+        <p><code>Plt_Sav</code> : Guardar gráficos. Booleano, no incluye unidades.</p>
+        <p><code>Plt_N</code> : Número de gráficos N. Entero, no incluye unidades.</p>
+        <p><code>Plt_M</code> : Número de gráficos M. Entero, no incluye unidades.</p>
+        
+
+
+
+    </body>
+</html>

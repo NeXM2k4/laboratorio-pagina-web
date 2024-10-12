@@ -1,0 +1,159 @@
+/*Estilos generales*/
+body{
+    margin: 0px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dark-section{
+    color: #fff;
+    background-color: #212529;
+}
+.light-section{
+    color: #000;
+    background-color: #eef;
+}
+.section-header{
+    font-size: 2.25rem;
+    padding: 15px 0px;
+}
+.section-text{
+    font-size: 1.0rem;
+    margin: 0.25rem;
+}
+#info-btn{
+    background-color: #d2c;
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+#info-btn:hover{
+    background-color: #f3e;
+}
+
+/*Barra de navegacion*/
+
+.navbar{
+    padding: 50px;
+    background-color: #fff0;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    color: #fff;
+}
+#nav-text{
+    color: #fff;
+}
+
+
+/*Hero*/
+
+.hero-banner{
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    background-image: url(/images/imagen\ prueba.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Sobre nosotros*/
+
+.about-us{
+    height: 500px;
+    padding: 10px;
+}
+.about-us-container{
+    max-width: 600px;
+    text-align: center;
+}
+
+/*Areas de investigacion*/
+
+.areas-investigacion{
+    padding: 40px;
+}
+.area-icon{
+    font-size: 60px;
+}
+.area-name{
+    font-weight: bold;
+    padding: 20px;
+}
+.area-column{
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: 0.25s;
+}
+.area-column:hover {
+    background-color: #334;
+    color: #fff;    
+}
+.area-img{
+    border-radius: 20px;
+}
+.area-description{
+    padding: 10px;
+}
+
+/*Articulos*/
+
+.articulos-recientes{
+    padding: 40px;
+    min-height: 500px;
+}
+.articulos-container{
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+/*Contacto*/
+
+
+
+/*Responsivo*/
+
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+/*Scroll*/
+
+/*
+@keyframes show{
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+.area-column{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+*/
